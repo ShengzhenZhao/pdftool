@@ -7,6 +7,6 @@
 out
 gen
 .idea
-/.idea/*
+**/.idea/
 target
 *.iml

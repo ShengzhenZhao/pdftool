@@ -5,7 +5,6 @@ package com.pdftools.utils;
  * @desc:
  **/
 
-import com.aspose.pdf.PptxSaveOptions;
 import com.aspose.pdf.SaveFormat;
 import com.aspose.pdf.Document;
 import java.io.FileOutputStream;

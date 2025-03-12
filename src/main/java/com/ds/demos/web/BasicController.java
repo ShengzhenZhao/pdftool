@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.pdftools.demos.web;
+package com.ds.demos.web;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;

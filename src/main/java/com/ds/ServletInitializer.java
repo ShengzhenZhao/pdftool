@@ -1,4 +1,4 @@
-package com.pdftools;
+package com.ds;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
@@ -7,7 +7,7 @@ public class ServletInitializer extends SpringBootServletInitializer {
 
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-        return application.sources(PdfToolsApplication.class);
+        return application.sources(DsApplication.class);
     }
 
 }

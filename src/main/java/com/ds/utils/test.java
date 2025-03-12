@@ -25,6 +25,7 @@ public class test {
                 .addHeader("Authorization", "Bearer sk-5f4e77c3ca4b45c1b23406a060439c1d")
                 .build();
         Response response = client.newCall(request).execute();
+        System.out.println("test");
         System.out.println(response.body().string());
     }
 }
